@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "juanfran-gemini-open-51"
-          entrypoint: "/blob/main/dist/main_deno.mjs"
+          entrypoint: "/dist/main_deno.mjs"
           root: ""
